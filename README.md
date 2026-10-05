@@ -41,8 +41,9 @@ Curso práctico de **React + TypeScript**. **Un concepto por módulo, sin mezcla
 | 07 | `07-context` | Context como provider + estado global | 📋 spec |
 | 08 | `08-custom-hooks` | Extraer lógica reutilizable en hooks propios | 📋 spec |
 | 09 | `09-api` | Tipos desde OpenAPI + integración con el backend | 📋 spec |
+| 10 | `10-buenas-practicas-diseno` | Clean Arch, atomic design, SOLID, mobile first, menú sandwich, paginación | ✅ guiado |
 
-> **Módulos 03–09:** son **specs detalladas** (lectura + videos + referencias), no guiados completos. Vos hacés el 🎯 Proyecto solo con esa guía. Los módulos **01 y 02** son guiados paso a paso.
+> **Módulos 03–09:** son **specs detalladas** (lectura + videos + referencias), no guiados completos. Vos hacés el 🎯 Proyecto solo con esa guía. Los módulos **01, 02 y 10** son guiados paso a paso. Cada módulo trae su **`SPEC.md`** + **`GUIA.md`** (backlog con notas de aprendizaje) + **`LECCIONES_APRENDIDAS.md`** (tu registro).
 
 > Los módulos se suman **de a poco**. Mantené tu fork sincronizado para recibirlos.
 

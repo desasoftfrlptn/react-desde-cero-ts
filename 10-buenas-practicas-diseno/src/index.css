@@ -1,0 +1,164 @@
+/* ============================================================
+   index.css — MOBILE FIRST
+   ============================================================
+   La regla de oro de "mobile first": los estilos BASE están
+   pensados para MÓVIL (una columna, menú sandwich oculto).
+   Los media queries MIN-WIDTH van ENSANCHANDO el layout para
+   pantallas más grandes. Nunca al revés (max-width).
+   ============================================================ */
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #1a1a2e;
+  color: #f5f5f5;
+  line-height: 1.5;
+}
+
+/* --- Header --- */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #16213e;
+  border-bottom: 1px solid #0f3460;
+}
+
+.app-header .marca {
+  font-weight: 700;
+}
+
+.app-main {
+  padding: 1rem;
+}
+
+/* --- Menú sandwich: la lista está OCULTA en móvil --- */
+.menu-lista {
+  display: none; /* móvil: no se ve hasta que se abre */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menu-lista.abierto {
+  display: flex; /* cuando el estado "abierto" es true */
+}
+
+.menu-lista a {
+  color: #a7b1c2;
+  text-decoration: none;
+}
+
+.menu-lista a.active {
+  color: #e94560;
+}
+
+/* --- Grid de productos: 1 columna en móvil --- */
+.productos-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+/* --- Átomos (ui) --- */
+.card {
+  background: #16213e;
+  border: 1px solid #0f3460;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font: inherit;
+}
+
+.btn-primario {
+  background: #e94560;
+  color: #fff;
+}
+
+.btn-secundario {
+  background: #0f3460;
+  color: #fff;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
+
+.badge-stock {
+  background: #2ecc71;
+  color: #1a1a2e;
+}
+
+.badge-sin-stock {
+  background: #e94560;
+  color: #fff;
+}
+
+.badge-categoria {
+  background: #f0a500;
+  color: #1a1a2e;
+}
+
+/* --- Paginación --- */
+.paginacion {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+/* ============================================================
+   BREAKPOINT TABLET (min-width: 640px)
+   El layout deja de ser "solo móvil": el menú sandwich se
+   convierte en menú horizontal siempre visible.
+   ============================================================ */
+@media (min-width: 640px) {
+  .menu-sandwich .btn {
+    display: none; /* oculto el botón hamburguesa */
+  }
+
+  .menu-lista {
+    display: flex; /* la lista se muestra SIEMPRE */
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .productos-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+  }
+}
+
+/* ============================================================
+   BREAKPOINT DESKTOP (min-width: 1024px)
+   ============================================================ */
+@media (min-width: 1024px) {
+  .productos-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  }
+
+  .app-main {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}
