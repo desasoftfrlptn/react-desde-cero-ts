@@ -34,13 +34,13 @@ Curso práctico de **React + TypeScript**. **Un concepto por módulo, sin mezcla
 |---|---|---|---|
 | 01 | `01-hola-mundo` | Scaffold Vite + TS, `createRoot`, primer componente | ✅ |
 | 02 | `02-app-rutas-hooks` | Construcción React + rutas (React Router v7) + hooks (React 19) | ✅ |
-| 03 | `03-componentes-props` | Componentes tipados + props con `interface`, `children` | 🔜 spec |
-| 04 | `04-estado` | `useState` tipado — estado local | 🔜 spec |
-| 05 | `05-eventos-formularios` | Eventos tipados + formularios con Actions (React 19) | 🔜 spec |
-| 06 | `06-datos-efectos` | `useEffect` + data fetching + TanStack Query | 🔜 spec |
-| 07 | `07-context` | Context como provider + estado global | 🔜 spec |
-| 08 | `08-custom-hooks` | Extraer lógica reutilizable en hooks propios | 🔜 spec |
-| 09 | `09-api` | Tipos desde OpenAPI + integración con el backend | 🔜 spec |
+| 03 | `03-componentes-props` | Componentes tipados + props con `interface`, `children` | 📋 spec |
+| 04 | `04-estado` | `useState` tipado — estado local | 📋 spec |
+| 05 | `05-eventos-formularios` | Eventos tipados + formularios con Actions (React 19) | 📋 spec |
+| 06 | `06-datos-efectos` | `useEffect` + data fetching + TanStack Query | 📋 spec |
+| 07 | `07-context` | Context como provider + estado global | 📋 spec |
+| 08 | `08-custom-hooks` | Extraer lógica reutilizable en hooks propios | 📋 spec |
+| 09 | `09-api` | Tipos desde OpenAPI + integración con el backend | 📋 spec |
 
 > **Módulos 03–09:** son **specs detalladas** (lectura + videos + referencias), no guiados completos. Vos hacés el 🎯 Proyecto solo con esa guía. Los módulos **01 y 02** son guiados paso a paso.
 
