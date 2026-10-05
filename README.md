@@ -21,7 +21,8 @@ Curso práctico de **React + TypeScript**. **Un concepto por módulo, sin mezcla
 
 ## 📖 Filosofía
 
-- **Un concepto por módulo.** El módulo 4 enseña `props`; el 3 no las usa. Simple, progresivo, sólido.
+- **Todo es TypeScript (TSX).** No hay "JSX suelto": cada componente, prop y hook está tipado desde el día 1. TypeScript no es un extra, es el idioma.
+- **Progresivo, sin mezclar.** El módulo 01 arranca mínimo; el 02 integra construcción + rutas + hooks; el 03 en adelante profundiza un concepto por spec.
 - **No copies y pegues.** Escribí cada línea, rompela, fixeala, entendé qué pasa. Esa es la única forma de aprender de verdad.
 - Cada módulo trae: **📖 Nota Académica** (el concepto) + **🛠️ Paso a Paso** (crealo desde cero) + **📄 Código completo** (comentado) + **🎯 Proyecto para hacer solo** (no es opcional).
 
@@ -32,11 +33,16 @@ Curso práctico de **React + TypeScript**. **Un concepto por módulo, sin mezcla
 | # | Módulo | Concepto | Estado |
 |---|---|---|---|
 | 01 | `01-hola-mundo` | Scaffold Vite + TS, `createRoot`, primer componente | ✅ |
-| 02 | `02-jsx-expresiones` | JSX, llaves `{}`, fragments, tipado básico | ✅ |
-| 03 | `03-componentes` | Funciones que devuelven JSX, un componente por archivo | ✅ |
-| 04 | `04-props` | Props tipadas con `interface`, `children`, valores por defecto | ✅ |
-| 05 | `05-estado` | `useState` tipado — la gran diferencia con HTML estático | ✅ |
-| … | `06-eventos` → `16-api` | Eventos, listas, condicional, formularios, `useEffect`, context, custom hooks, router, API | 🔜 próximamente |
+| 02 | `02-app-rutas-hooks` | Construcción React + rutas (React Router v7) + hooks (React 19) | ✅ |
+| 03 | `03-componentes-props` | Componentes tipados + props con `interface`, `children` | 🔜 spec |
+| 04 | `04-estado` | `useState` tipado — estado local | 🔜 spec |
+| 05 | `05-eventos-formularios` | Eventos tipados + formularios con Actions (React 19) | 🔜 spec |
+| 06 | `06-datos-efectos` | `useEffect` + data fetching + TanStack Query | 🔜 spec |
+| 07 | `07-context` | Context como provider + estado global | 🔜 spec |
+| 08 | `08-custom-hooks` | Extraer lógica reutilizable en hooks propios | 🔜 spec |
+| 09 | `09-api` | Tipos desde OpenAPI + integración con el backend | 🔜 spec |
+
+> **Módulos 03–09:** son **specs detalladas** (lectura + videos + referencias), no guiados completos. Vos hacés el 🎯 Proyecto solo con esa guía. Los módulos **01 y 02** son guiados paso a paso.
 
 > Los módulos se suman **de a poco**. Mantené tu fork sincronizado para recibirlos.
 

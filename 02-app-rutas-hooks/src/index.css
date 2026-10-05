@@ -1,0 +1,139 @@
+/* ============================================================
+   Estilos del módulo 02 — acá las CLASES importan
+   (viste el viernes cómo crear clases y usarlas en TSX)
+   ============================================================ */
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #1a1a2e;
+  color: #f5f5f5;
+  line-height: 1.5;
+}
+
+/* --- Barra de navegación --- */
+.nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: #16213e;
+  border-bottom: 1px solid #0f3460;
+}
+
+.nav-link {
+  color: #a7b1c2;
+  text-decoration: none;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.nav-link:hover {
+  background: #0f3460;
+  color: #fff;
+}
+
+/* `NavLink` agrega la clase `active` automáticamente en la ruta actual */
+.nav-link.active {
+  background: #e94560;
+  color: #fff;
+}
+
+/* --- Contenido --- */
+main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+/* --- Lista de incidencias --- */
+.incidencia-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+  max-width: 40rem;
+}
+
+.incidencia-card {
+  background: #16213e;
+  border: 1px solid #0f3460;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.incidencia-card a {
+  color: #e94560;
+  text-decoration: none;
+}
+
+.incidencia-card a:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  margin-left: 0.5rem;
+}
+
+.badge.abierta {
+  background: #e94560;
+  color: #fff;
+}
+
+.badge.en-proceso {
+  background: #f0a500;
+  color: #1a1a2e;
+}
+
+.badge.resuelta {
+  background: #2ecc71;
+  color: #1a1a2e;
+}
+
+/* --- Formulario --- */
+form {
+  display: grid;
+  gap: 1rem;
+  max-width: 30rem;
+}
+
+label {
+  display: grid;
+  gap: 0.3rem;
+}
+
+input,
+textarea {
+  background: #0f3460;
+  border: 1px solid #16213e;
+  border-radius: 6px;
+  color: #fff;
+  padding: 0.5rem;
+  font: inherit;
+}
+
+button {
+  background: #e94560;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
