@@ -40,3 +40,11 @@ Creá `06-datos-practica` — consumí una API pública (ej. JSONPlaceholder):
 - [ ] Manejo loading/error/success
 - [ ] Tipé la respuesta con `interface`
 - [ ] Entendí la diferencia con `useEffect` + `fetch` manual
+
+---
+
+## 📂 Docs del módulo
+
+- **`SPEC.md`** → la especificación del proyecto.
+- **`GUIA.md`** → el backlog con notas de aprendizaje.
+- **`LECCIONES_APRENDIDAS.md`** → tu registro personal (en blanco, completalo).

@@ -89,3 +89,11 @@ Creá un proyecto nuevo llamado `01-hola-mundo-practica`:
 - [ ] Veo mi nombre + legajo
 - [ ] Usé `<main>` (no un `<div>`)
 - [ ] Entendí que un componente es una función que devuelve JSX
+
+---
+
+## 📂 Docs del módulo
+
+- **`SPEC.md`** → la especificación del proyecto.
+- **`GUIA.md`** → el backlog con notas de aprendizaje.
+- **`LECCIONES_APRENDIDAS.md`** → tu registro personal (en blanco, completalo).

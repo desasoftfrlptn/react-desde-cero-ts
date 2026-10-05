@@ -40,3 +40,11 @@ Creá `05-formulario-practica` — un **formulario de alta con validación**:
 - [ ] Usé `useActionState` y `useFormStatus`
 - [ ] Tipé los eventos correctamente
 - [ ] Entendí qué reemplazó a `onSubmit` + `preventDefault`
+
+---
+
+## 📂 Docs del módulo
+
+- **`SPEC.md`** → la especificación del proyecto.
+- **`GUIA.md`** → el backlog con notas de aprendizaje.
+- **`LECCIONES_APRENDIDAS.md`** → tu registro personal (en blanco, completalo).

@@ -40,3 +40,11 @@ Creá `09-api-practica` — conectá el frontend al **contrato**:
 - [ ] Manejo loading/error/success
 - [ ] La URL es configurable (fácil de apuntar a FastAPI)
 - [ ] Entendí qué es CORS y cuándo aparece
+
+---
+
+## 📂 Docs del módulo
+
+- **`SPEC.md`** → la especificación del proyecto.
+- **`GUIA.md`** → el backlog con notas de aprendizaje.
+- **`LECCIONES_APRENDIDAS.md`** → tu registro personal (en blanco, completalo).

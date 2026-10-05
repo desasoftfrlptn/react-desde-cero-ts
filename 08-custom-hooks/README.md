@@ -38,3 +38,11 @@ Creá `08-custom-hooks-practica` — un hook de **fetch genérico**:
 - [ ] Es **genérico** (`useFetch<T>`)
 - [ ] Lo reutilicé en 2+ componentes
 - [ ] Respeté las rules of hooks (nada de hooks en condicionales)
+
+---
+
+## 📂 Docs del módulo
+
+- **`SPEC.md`** → la especificación del proyecto.
+- **`GUIA.md`** → el backlog con notas de aprendizaje.
+- **`LECCIONES_APRENDIDAS.md`** → tu registro personal (en blanco, completalo).

@@ -42,3 +42,11 @@ Creá `04-estado-practica` — un **contador con historial**:
 - [ ] Actualizo el estado de forma **inmutable** (nada de `push`)
 - [ ] Entendí por qué el estado re-renderiza la UI
 - [ ] Probé el React Compiler (sin `useMemo` manual)
+
+---
+
+## 📂 Docs del módulo
+
+- **`SPEC.md`** → la especificación del proyecto.
+- **`GUIA.md`** → el backlog con notas de aprendizaje.
+- **`LECCIONES_APRENDIDAS.md`** → tu registro personal (en blanco, completalo).

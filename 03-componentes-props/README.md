@@ -40,3 +40,11 @@ Extendé la app del módulo 02 (o creá `03-componentes-practica`):
 - [ ] Usé `children` al menos una vez
 - [ ] Ningún componente muta sus props
 - [ ] Entendí por qué las props son de solo lectura
+
+---
+
+## 📂 Docs del módulo
+
+- **`SPEC.md`** → la especificación del proyecto.
+- **`GUIA.md`** → el backlog con notas de aprendizaje.
+- **`LECCIONES_APRENDIDAS.md`** → tu registro personal (en blanco, completalo).

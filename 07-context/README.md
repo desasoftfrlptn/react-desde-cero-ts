@@ -40,3 +40,11 @@ Creá `07-context-practica` — un **tema claro/oscuro global**:
 - [ ] Consumí con `useContext`
 - [ ] Evité el prop drilling
 - [ ] Entendí cuándo SÍ y cuándo NO usar Context
+
+---
+
+## 📂 Docs del módulo
+
+- **`SPEC.md`** → la especificación del proyecto.
+- **`GUIA.md`** → el backlog con notas de aprendizaje.
+- **`LECCIONES_APRENDIDAS.md`** → tu registro personal (en blanco, completalo).

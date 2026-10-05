@@ -203,3 +203,11 @@ Creá una app nueva llamada `02-biblioteca-practica` — un **catálogo de libro
 - React hooks — https://react.dev/reference/react/hooks
 - TypeScript en React — https://react.dev/learn/typescript
 - Container/Presentational — https://www.patterns.dev/react/presentational-container-pattern
+
+---
+
+## 📂 Docs del módulo
+
+- **`SPEC.md`** → la especificación del proyecto.
+- **`GUIA.md`** → el backlog con notas de aprendizaje.
+- **`LECCIONES_APRENDIDAS.md`** → tu registro personal (en blanco, completalo).
